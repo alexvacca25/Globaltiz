@@ -1,0 +1,33 @@
+#clientes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    min-height: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: rebeccapurple;
+    background: url('../img/hands-geb1c152cf_1920.jpg');
+    background-size: cover;
+    background-position: center;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+#clientes div{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    min-height: 500px;
+    color: var(--blanco);
+    flex-direction: column;
+}
+#clientes div img{
+    width: 50%;
+}
+.sonda,.pya{
+    background: rgba(255, 255, 255, 0.1);
+}
+.parking{
+    background: rgba(44, 62, 80, 0.5);
+    color: white !important;
+}

@@ -1,0 +1,55 @@
+#Incio{
+    width: 100%;
+    height: 100vh;
+    background: #CEE4F2;
+    background-image: linear-gradient(to right bottom, #f20675, #dc55c2, #a387f6, #55aaff, #00c4ff, #00c5fb, #00c5f7, #00c6f3, #00b2e8, #009edc, #008bce, #0577be);
+    background-image: linear-gradient(to left top, #0072cc, #008ad3, #009eca, #00afb5, #1abc9c);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.texto{
+    width: 50%;
+    padding: 25px !important;
+    padding-left: 50px !important;
+    z-index: 999;
+}
+
+.imagen{
+    position: absolute;
+    height: 90% !important;
+    width: auto !important;
+    bottom: 0;
+    right: 100px;
+}
+h1{
+    font-family: archivoBlack !important;
+    font-size: 50px !important;
+    margin-bottom: 20px !important;
+    color: #050505;
+}
+h2{
+    font-family: archivoBlack !important;
+    font-size: 30px !important;
+    margin-bottom: 20px !important;
+}
+p{
+    font-family: comforta !important;
+    font-size: 25px !important;
+    margin-bottom: 20px !important;
+}
+.boton-contacto{
+    background: #050505;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: comforta;
+    color: #CEE4F2;
+    text-decoration: none;
+}
+.boton-contacto:hover{
+    color: #CEE4F2;
+    background: #011126;
+}
